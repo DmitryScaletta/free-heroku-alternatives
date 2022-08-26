@@ -7,7 +7,7 @@ This comparison describes only free tiers of these services.
 |                         | fly.io        | Railway.app     | render.com    | glitch.com        |
 | ----------------------- | ------------- | --------------- | ------------- | ----------------- |
 | Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         |
-| Credit Card             | Not Required* | Not Requited    | Not Requited  | Not Requited      |
+| Credit Card             | Not Required* | Not Required    | Not Required  | Not Required      |
 | Free Tier Limits        | 2,340 hours   | $5 or 500 hours | 750 hours     | 1000 hours        |
 | RAM                     | 256MB         | 512MB           | 512MB         | 512MB             |
 | Disk Space              | 1GB, 3GB*     | 1GB             |               | 200MB*            |
