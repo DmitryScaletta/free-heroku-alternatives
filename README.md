@@ -4,16 +4,16 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
-|                         | fly.io        | Railway.app     | render.com    | glitch.com        |
-| ----------------------- | ------------- | --------------- | ------------- | ----------------- |
-| Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         |
-| Credit Card             | Not Required* | Not Required    | Not Required  | Not Required      |
-| Free Tier Limits        | 2,340 hours   | $5 or 500 hours | 750 hours     | 1000 hours        |
-| RAM                     | 256MB         | 512MB           | 512MB         | 512MB             |
-| Disk Space              | 1GB, 3GB*     | 1GB             |               | 200MB*            |
-| Disk Write Access       | Yes           |                 | No            | Yes               |
-| Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     |
-| Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) |
+|                         | fly.io        | Railway.app     | render.com    | glitch.com        | Adaptable.io |
+| ----------------------- | ------------- | --------------- | ------------- | ----------------- | ------------ |
+| Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         | Yes*         |
+| Credit Card             | Not Required* | Not Required    | Not Required  | Not Required      | Not Required |
+| Free Tier Limits        | 2,340 hours   | $5 or 500 hours | 750 hours     | 1000 hours        | None*        |
+| RAM                     | 256MB         | 512MB           | 512MB         | 512MB             | 256MB        |
+| Disk Space              | 1GB, 3GB*     | 1GB             |               | 200MB*            | 1GB          |
+| Disk Write Access       | Yes           |                 | No            | Yes               | Yes*         |
+| Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     | 100GB        |
+| Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) | No*          |
 
 \* See information below
 
@@ -143,3 +143,16 @@ This comparison describes only free tiers of these services.
 ]
 ```
 </details>
+
+## Adaptable.io
+
+[Pricing](https://adaptable.io/pricing) | [Deployment](https://adaptable.io/docs/deploying-your-existing-app) | [App requirements](https://adaptable.io/docs/app-guides/deploy-nodejs-app#containerized-app-requirements)
+
+* Automatically deploys from your GitHub repo on push.
+* Adaptable is currently in beta.
+* Free managed Postgres or MongoDB is included with each app (MS SQL available as add-on).
+* Web services do not support persistent disks. Apps can write to local disk, but files will be lost when the app is scaled down or updated.
+* Web services cannot perform background tasks (HTTP request processing only). App CPU allocation is set to zero when your app is not processing a network request.
+* Web services can be restarted at any time.
+* Apps may be paused for abusive use.
+* Dockerfile support is not yet released.
