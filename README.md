@@ -102,8 +102,9 @@ This comparison describes only free tiers of these services.
 [Pricing](https://render.com/pricing) | [Limits for Free Tier](https://render.com/docs/free#free-web-services) | [Deployment](https://render.com/docs/deploys)
 
 * Free Redis: 25MB RAM, 50 connections, No persistence
-* Free Web Services do not support persistent disks.
-* Free Web Services can be restarted at any time.
+* Free [DDOS protection](https://render.com/docs/ddos-protection) to every app using Cloudflare
+* Free Web Services do not support persistent disks
+* Free Web Services can be restarted at any time
 * Free Web Services can use up to 400 free build hours per month, shared with static sites
 
 <details>
