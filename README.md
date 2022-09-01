@@ -7,10 +7,10 @@ This comparison describes only free tiers of these services.
 |                         | fly.io        | Railway.app     | render.com    | glitch.com        | Adaptable.io |
 | ----------------------- | ------------- | --------------- | ------------- | ----------------- | ------------ |
 | Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         | Yes*         |
-| Credit Card             | Not Required* | Not Required    | Not Required  | Not Required      | Not Required |
-| Free Tier Limits        | 2,340 hours   | $5 or 500 hours | 750 hours     | 1000 hours        | None*        |
+| Credit Card Required    | Yes           | No              | No            | No                | No           |
+| Free Tier Limits        | ?             | $5 or 500 hours | 750 hours     | 1000 hours        | None*        |
 | RAM                     | 256MB         | 512MB           | 512MB         | 512MB             | 256MB        |
-| Disk Space              | 1GB, 3GB*     | 1GB             |               | 200MB*            | 1GB          |
+| Disk Space              | 3GB           | 1GB             |               | 200MB*            | 1GB          |
 | Disk Write Access       | Yes           |                 | No            | Yes               | Yes*         |
 | Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     | 100GB        |
 | Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) | No*          |
@@ -21,30 +21,11 @@ This comparison describes only free tiers of these services.
 
 [Pricing](https://fly.io/docs/about/pricing/) | [About Free Postgres](https://fly.io/docs/reference/postgres/#about-free-postgres-on-fly) | [Deployment](https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/#speed-run-your-way-to-continuous-deployment)
 
-* Without a payment method set
-  * You can create up to 2 apps full time with one VM each
-  * Run 2 shared-cpu-1x VMs with 256MB RAM full time with time to spare
-  * Provision 1GB of persistent volumes for permanent storage
-
-* With a payment method set
-  * You can create unlimited apps with many VMs
-  * Run 3 shared-cpu-1x VMs with 256MB RAM full time
-  * Provision 3GB of persistent volumes for permanent storage
-
-* Free Postgres ([requires a credit card](https://fly.io/blog/free-postgres/))
+* Up to 3 shared-cpu-1x 256mb VMs
+* Free Postgres
   * single node, 3gb volume (single database)
   * 2x1gb volumes (database in two regions, or a primary and replica in the same region)
   * 3x1gb volumes (database in three regions)
-
-<details>
-  <summary>os.cpus() without a payment method set</summary>
-
-```json
-[
-  {"model":"AMD EPYC","speed":2595,"times":{"user":50,"nice":0,"sys":70,"idle":118890,"irq":0}}
-]
-```
-</details>
 
 ## Railway.app
 
