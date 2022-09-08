@@ -4,16 +4,17 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
-|                         | fly.io        | Railway.app     | render.com    | glitch.com        | Adaptable.io |
-| ----------------------- | ------------- | --------------- | ------------- | ----------------- | ------------ |
-| Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         | Yes*         |
-| Credit Card Required    | Yes           | No              | No            | No                | No           |
-| Free Tier Limits        | ?             | $5 or 500 hours | 750 hours     | 1000 hours        | None*        |
-| RAM                     | 256MB         | 512MB           | 512MB         | 512MB             | 256MB        |
-| Disk Space              | 3GB           | 1GB             |               | 200MB*            | 1GB          |
-| Disk Write Access       | Yes           |                 | No            | Yes               | Yes*         |
-| Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     | 100GB        |
-| Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) | No*          |
+|                         | fly.io        | Railway.app     | render.com    | glitch.com        | Adaptable.io | Cyclic.sh    |
+| ----------------------- | ------------- | --------------- | ------------- | ----------------- | ------------ | ------------ |
+| Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         | Yes*         | No           |
+| Credit Card Required    | Yes           | No              | No            | No                | No           | No           |
+| Free Tier Limits        | ?             | $5 or 500 hours | 750 hours     | 1000 hours        | None*        | 100,000 req? |
+| RAM                     | 256MB         | 512MB           | 512MB         | 512MB             | 256MB        | 1GB          |
+| Disk Space              | 3GB           | 1GB             |               | 200MB*            | 1GB          | 512MB*       |
+| Disk Write Access       | Yes           |                 | No            | Yes               | Yes*         | Yes*         |
+| Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     | 100GB        |              |
+| Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) | No*          | No           |
+| GitHub Integration      | No            | Yes             | Yes           |                   | Yes          | Yes          |
 
 \* See information below
 
@@ -31,7 +32,6 @@ This comparison describes only free tiers of these services.
 
 [Pricing](https://railway.app/pricing) | [About Free Starter Plan](https://docs.railway.app/reference/plans#starter-plan) | [Deployment](https://docs.railway.app/deploy/deployments)
 
-* Github integration for deployment
 * Has Postgres, Redis, MongoDB, MySQL
 * Can't run an app 24/7 at a free tier because it offers only 500 hours of usage per month
 * Project deploys are stood down if credit limit OR execution hour limit is reached
@@ -130,7 +130,6 @@ This comparison describes only free tiers of these services.
 
 [Pricing](https://adaptable.io/pricing) | [Deployment](https://adaptable.io/docs/deploying-your-existing-app) | [App requirements](https://adaptable.io/docs/app-guides/deploy-nodejs-app#containerized-app-requirements)
 
-* Automatically deploys from your GitHub repo on push.
 * Adaptable is currently in beta.
 * Free managed Postgres or MongoDB is included with each app (MS SQL available as add-on).
 * Web services do not support persistent disks. Apps can write to local disk, but files will be lost when the app is scaled down or updated.
@@ -138,3 +137,29 @@ This comparison describes only free tiers of these services.
 * Web services can be restarted at any time.
 * Apps may be paused for abusive use.
 * Dockerfile support is not yet released.
+
+## Cyclic.sh
+
+[Pricing](https://www.cyclic.sh/pricing) | [Limits](https://docs.cyclic.sh/overview/limits) | [Deploy](https://docs.cyclic.sh/overview/deploy)
+
+* Websockets are currently not supported in Cyclic apps.
+* There are no servers, no containers, no images, no hours to count. Each app is deployed entirely on serverless cloud infrastructure.
+* Apps do not have to sleep, wake up, spin up or recycle. All front-ends and back-ends are ready on-demand, immediately and at all times.
+* Storage
+  * 1GB of AWS S3 file object storage
+  * 1GB AWS DynamoDB NoSQL database.
+  * 512MB of ephemeral disk space mounted at /tmp. The data will persist between invokes but there is no guarantee that any further invocations will use the same instance and thus can not be relied on to store persistent data.
+* No streaming of requests or responses
+* 5 API requests per second steady state (for free tier)
+* 10 API requests per second in a burst (for free tier)
+
+<details>
+  <summary>os.cpus()</summary>
+
+```json
+[
+  {"model":"Intel(R) Xeon(R) Processor @ 2.50GHz","speed":2500,"times":{"user":260,"nice":0,"sys":380,"idle":488800,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Processor @ 2.50GHz","speed":2500,"times":{"user":490,"nice":0,"sys":480,"idle":488540,"irq":0}}
+]
+```
+</details>
