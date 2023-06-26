@@ -4,17 +4,17 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
-|                         | fly.io        | Railway.app     | render.com    | glitch.com        | Adaptable.io | Cyclic.sh    |
-| ----------------------- | ------------- | --------------- | ------------- | ----------------- | ------------ | ------------ |
-| Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         | Yes*         | No           |
-| Credit Card Required    | Yes           | No              | No            | No                | No           | No           |
-| Free Tier Limits        | ?             | $5 or 500 hours | 750 hours     | 1000 hours        | None*        | 100,000 req? |
-| RAM                     | 256MB         | 512MB           | 512MB         | 512MB             | 256MB        | 1GB          |
-| Disk Space              | 3GB           | 1GB             |               | 200MB*            | 1GB          | 512MB*       |
-| Disk Write Access       | Yes           |                 | No            | Yes               | Yes*         | Yes*         |
-| Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     | 100GB        |              |
-| Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) | No*          | No           |
-| GitHub Integration      | No            | Yes             | Yes           |                   | Yes          | Yes          |
+|                         | fly.io        | Railway.app     | render.com    | glitch.com        | Adaptable.io | Cyclic.sh    | Zeabur.com   |
+| ----------------------- | ------------- | --------------- | ------------- | ----------------- | ------------ | ------------ | ------------ |
+| Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         | Yes*         | No           | No           |
+| Credit Card Required    | Yes           | No              | No            | No                | No           | No           | No           |
+| Free Tier Limits        | ?             | $5 or 500 hours | 750 hours     | 1000 hours        | None*        | 100,000 req? | $5           |
+| RAM                     | 256MB         | 512MB           | 512MB         | 512MB             | 256MB        | 1GB          | 512MB        |
+| Disk Space              | 3GB           | 1GB             |               | 200MB*            | 1GB          | 512MB*       | 1GB          |
+| Disk Write Access       | Yes           |                 | No            | Yes               | Yes*         | Yes*         | Yes          |
+| Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     | 100GB        |              |              |
+| Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) | No*          | No           | Yes          |
+| GitHub Integration      | No            | Yes             | Yes           |                   | Yes          | Yes          | Yes          |
 
 \* See information below
 
@@ -163,3 +163,12 @@ This comparison describes only free tiers of these services.
 ]
 ```
 </details>
+
+## Zeabur.com
+
+[Pricing](https://zeabur.com/pricing) | [Deployment](https://docs.zeabur.com/get-started)
+
+* Has Postgres, Redis, MongoDB, MySQL and other databases
+* Include a US$ 5 free credits every month
+* Apps do not have to sleep, wake up, spin up or recycle. All front-ends and back-ends are ready on-demand, immediately and at all times.
+* Can deploy from pre-built services and templates
