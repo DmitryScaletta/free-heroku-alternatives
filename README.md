@@ -166,7 +166,7 @@ This comparison describes only free tiers of these services.
 
 ## Zeabur.com
 
-[Pricing](https://zeabur.com/pricing) | [Deployment](https://docs.zeabur.com/get-started)
+[Pricing](https://zeabur.com/pricing) | [Pricing Model](https://docs.zeabur.com/billing/pricing) | [Deployment](https://docs.zeabur.com/get-started)
 
 * Has Postgres, Redis, MongoDB, MySQL and other databases
 * Include a US$ 5 free credits every month
