@@ -169,6 +169,7 @@ This comparison describes only free tiers of these services.
 [Pricing](https://zeabur.com/pricing) | [Pricing Model](https://docs.zeabur.com/billing/pricing) | [Deployment](https://docs.zeabur.com/get-started)
 
 * Has Postgres, Redis, MongoDB, MySQL and other databases
+* Should use about 20% CPU and 100MB RAM to run an app 24/7 at a free tier.
 * Include a US$ 5 free credits every month
 * Apps do not have to sleep, wake up, spin up or recycle. All front-ends and back-ends are ready on-demand, immediately and at all times.
 * Can deploy from pre-built services and templates
