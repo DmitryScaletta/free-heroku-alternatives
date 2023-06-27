@@ -173,3 +173,16 @@ This comparison describes only free tiers of these services.
 * Include a US$ 5 free credits every month
 * Apps do not have to sleep, wake up, spin up or recycle. All front-ends and back-ends are ready on-demand, immediately and at all times.
 * Can deploy from pre-built services and templates
+
+<details>
+  <summary>os.cpus()</summary>
+
+```json
+[
+  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1079889550,"nice":0,"sys":517413340,"idle":1440992040,"irq":0}},
+  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1098516910,"nice":0,"sys":511087310,"idle":1445546250,"irq":0}},
+  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1090612360,"nice":0,"sys":512215370,"idle":1480410470,"irq":0}},
+  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1027847790,"nice":10,"sys":516513570,"idle":1232710880,"irq":0}}
+]
+```
+</details>
