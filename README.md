@@ -4,17 +4,17 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
-|                         | fly.io        | Railway.app     | render.com    | glitch.com        | Adaptable.io | Cyclic.sh    | Zeabur.com   |
-| ----------------------- | ------------- | --------------- | ------------- | ----------------- | ------------ | ------------ | ------------ |
-| Shutdown for Inactivity | No            | No              | 15 minutes    | 5 minutes         | Yes*         | No           | No           |
-| Credit Card Required    | Yes           | No              | No            | No                | No           | No           | No           |
-| Free Tier Limits        | ?             | $5 or 500 hours | 750 hours     | 1000 hours        | None*        | 100,000 req? | $5           |
-| RAM                     | 256MB         | 512MB           | 512MB         | 512MB             | 256MB        | 1GB          | 512MB        |
-| Disk Space              | 3GB           | 1GB             |               | 200MB*            | 1GB          | 512MB*       | 1GB          |
-| Disk Write Access       | Yes           |                 | No            | Yes               | Yes*         | Yes*         | Yes          |
-| Network Bandwidth       | 160GB         | 100GB           | 100GB         | 4000 req/hour     | 100GB        |              |              |
-| Can use Dockerfile      | Yes           | Yes             | Yes           | No (only Node.js) | No*          | No           | Yes          |
-| GitHub Integration      | No            | Yes             | Yes           |                   | Yes          | Yes          | Yes          |
+|                         | fly.io        | Railway.app | render.com    | glitch.com        | Adaptable.io | Cyclic.sh    | Zeabur.com   |
+| ----------------------- | ------------- | ----------- | ------------- | ----------------- | ------------ | ------------ | ------------ |
+| Shutdown for Inactivity | No            | No          | 15 minutes    | 5 minutes         | Yes*         | No           | No           |
+| Credit Card Required    | Yes           | Yes         | No            | No                | No           | No           | No           |
+| Free Tier Limits        | ?             | $5*         | 750 hours     | 1000 hours        | None*        | 100,000 req? | $5           |
+| RAM                     | 256MB         | 512MB       | 512MB         | 512MB             | 256MB        | 1GB          | 512MB        |
+| Disk Space              | 3GB           | 1GB         |               | 200MB*            | 1GB          | 512MB*       | 1GB          |
+| Disk Write Access       | Yes           |             | No            | Yes               | Yes*         | Yes*         | Yes          |
+| Network Bandwidth       | 160GB         | $0.10/GB    | 100GB         | 4000 req/hour     | 100GB        |              |              |
+| Can use Dockerfile      | Yes           | Yes         | Yes           | No (only Node.js) | No*          | No           | Yes          |
+| GitHub Integration      | No            | Yes         | Yes           |                   | Yes          | Yes          | Yes          |
 
 \* See information below
 
@@ -30,8 +30,13 @@ This comparison describes only free tiers of these services.
 
 ## Railway.app
 
-[Pricing](https://railway.app/pricing) | [About Free Starter Plan](https://docs.railway.app/reference/plans#starter-plan) | [Deployment](https://docs.railway.app/deploy/deployments)
+[Pricing](https://railway.app/pricing) | [Plans (New!)](https://docs.railway.app/reference/plans) | [Deployment](https://docs.railway.app/deploy/deployments)
 
+* First month: $5 or 500 hours of usage, credit card is not required
+* To get free $5/month - credit card is required and you have to be [verified](https://blog.railway.app/p/pricing-and-plans-migration-guide-2023#what%E2%80%99s-the-deal-with-verification):
+  * very active GitHub account
+  * active usage on Railway
+  * no spammy or abusive behaviour detected
 * Has Postgres, Redis, MongoDB, MySQL
 * Can't run an app 24/7 at a free tier because it offers only 500 hours of usage per month
 * Project deploys are stood down if credit limit OR execution hour limit is reached
