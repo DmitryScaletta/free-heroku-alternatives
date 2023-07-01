@@ -4,17 +4,17 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
-|                         | fly.io        | Railway.app | render.com    | glitch.com        | Adaptable.io | Cyclic.sh    | Zeabur.com   |
-| ----------------------- | ------------- | ----------- | ------------- | ----------------- | ------------ | ------------ | ------------ |
-| Shutdown for Inactivity | No            | No          | 15 minutes    | 5 minutes         | Yes*         | No           | No           |
-| Credit Card Required    | Yes           | Yes         | No            | No                | No           | No           | No           |
-| Free Tier Limits        | ?             | $5*         | 750 hours     | 1000 hours        | None*        | 100,000 req? | $5           |
-| RAM                     | 256MB         | 512MB       | 512MB         | 512MB             | 256MB        | 1GB          | 512MB        |
-| Disk Space              | 3GB           | 1GB         |               | 200MB*            | 1GB          | 512MB*       | 1GB          |
-| Disk Write Access       | Yes           |             | No            | Yes               | Yes*         | Yes*         | Yes          |
-| Network Bandwidth       | 160GB         | $0.10/GB    | 100GB         | 4000 req/hour     | 100GB        |              |              |
-| Can use Dockerfile      | Yes           | Yes         | Yes           | No (only Node.js) | No*          | No           | Yes          |
-| GitHub Integration      | No            | Yes         | Yes           |                   | Yes          | Yes          | Yes          |
+|                         | fly.io        | Railway.app | render.com    | glitch.com        | Adaptable.io | Cyclic.sh        | Zeabur.com   |
+| ----------------------- | ------------- | ----------- | ------------- | ----------------- | ------------ | ---------------- | ------------ |
+| Shutdown for Inactivity | No            | No          | 15 minutes    | 5 minutes         | Yes*         | No               | No           |
+| Credit Card Required    | Yes           | Yes         | No            | No                | No           | No               | No           |
+| Free Tier Limits        | ?             | $5*         | 750 hours     | 1000 hours        | None*        | 10,000 req/month | $5           |
+| RAM                     | 256MB         | 512MB       | 512MB         | 512MB             | 256MB        | 1GB              | 512MB        |
+| Disk Space              | 3GB           | 1GB         |               | 200MB*            | 1GB          | 512MB*           | 1GB          |
+| Disk Write Access       | Yes           |             | No            | Yes               | Yes*         | Yes*             | Yes          |
+| Network Bandwidth       | 160GB         | $0.10/GB    | 100GB         | 4000 req/hour     | 100GB        |                  |              |
+| Can use Dockerfile      | Yes           | Yes         | Yes           | No (only Node.js) | No*          | No               | Yes          |
+| GitHub Integration      | No            | Yes         | Yes           |                   | Yes          | Yes              | Yes          |
 
 \* See information below
 
