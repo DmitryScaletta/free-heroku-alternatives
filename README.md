@@ -8,7 +8,7 @@ This comparison describes only free tiers of these services.
 | ----------------------- | ------------- | ----------- | ------------- | ----------------- | ------------ | ------------ | ------------ |
 | Shutdown for Inactivity | No            | No          | 15 minutes    | 5 minutes         | Yes*         | No           | No           |
 | Credit Card Required    | Yes           | Yes         | No            | No                | No           | No           | No           |
-| Free Tier Limits        | ?             | $5*         | 750 hours     | 1000 hours        | None*        | 100,000 req? | $5           |
+| Free Tier Limits        | ?             | $5*         | 750 hours     | 1000 hours        | None*        | 10,000 req/month | $5           |
 | RAM                     | 256MB         | 512MB       | 512MB         | 512MB             | 256MB        | 1GB          | 512MB        |
 | Disk Space              | 3GB           | 1GB         |               | 200MB*            | 1GB          | 512MB*       | 1GB          |
 | Disk Write Access       | Yes           |             | No            | Yes               | Yes*         | Yes*         | Yes          |
