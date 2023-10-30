@@ -4,17 +4,29 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
-|                         | fly.io        | Railway.app | render.com    | glitch.com        | Adaptable.io | Cyclic.sh        | Zeabur.com   |
-| ----------------------- | ------------- | ----------- | ------------- | ----------------- | ------------ | ---------------- | ------------ |
-| Shutdown for Inactivity | No            | No          | 15 minutes    | 5 minutes         | Yes*         | No               | No           |
-| Credit Card Required    | Yes           | Yes         | No            | No                | No           | No               | No           |
-| Free Tier Limits        | ?             | $5*         | 750 hours     | 1000 hours        | None*        | 10,000 req/month | $5           |
-| RAM                     | 256MB         | 512MB       | 512MB         | 512MB             | 256MB        | 1GB              | 512MB        |
-| Disk Space              | 3GB           | 1GB         |               | 200MB*            | 1GB          | 512MB*           | 1GB          |
-| Disk Write Access       | Yes           |             | No            | Yes               | Yes*         | Yes*             | Yes          |
-| Network Bandwidth       | 160GB         | $0.10/GB    | 100GB         | 4000 req/hour     | 100GB        |                  |              |
-| Can use Dockerfile      | Yes           | Yes         | Yes           | No (only Node.js) | No*          | No               | Yes          |
-| GitHub Integration      | No            | Yes         | Yes           |                   | Yes          | Yes              | Yes          |
+|                         | fly.io | Railway.app | render.com    | glitch.com        | fl0.com |
+| ----------------------- | ------ | ----------- | ------------- | ----------------- | ------- |
+| Shutdown for Inactivity | No     | No          | 15 minutes    | 5 minutes         | No      |
+| Credit Card Required    | Yes    | Yes         | No            | No                | No      |
+| Free Tier Limits        |        | $5*         | 750 hours     | 1000 hours        |         |
+| RAM                     | 256MB  | 512MB       | 512MB         | 512MB             | 256MB   |
+| Disk Space              | 3GB    | 1GB         |               | 200MB*            | 1GB?    |
+| Disk Write Access       | Yes    |             | No            | Yes               |         |
+| Network Bandwidth       | 160GB  | $0.10/GB    | 100GB         | 4000 req/hour     | 10GB    |
+| Dockerfile              | Yes    | Yes         | Yes           | No (only Node.js) | Yes     |
+| GitHub Integration      | No     | Yes         | Yes           |                   | Yes     |
+
+|                         | Adaptable.io | Cyclic.sh        | Zeabur.com   |
+| ----------------------- | ------------ | ---------------- | ------------ |
+| Shutdown for Inactivity | Yes*         | No               | No           |
+| Credit Card Required    | No           | No               | No           |
+| Free Tier Limits        | None*        | 10,000 req/month | $5           |
+| RAM                     | 256MB        | 1GB              | 512MB        |
+| Disk Space              | 1GB          | 512MB*           | 1GB          |
+| Disk Write Access       | Yes*         | Yes*             | Yes          |
+| Network Bandwidth       | 100GB        |                  |              |
+| Dockerfile              | No*          | No               | Yes          |
+| GitHub Integration      | Yes          | Yes              | Yes          |
 
 \* See information below
 
@@ -30,7 +42,7 @@ This comparison describes only free tiers of these services.
 
 ## Railway.app
 
-[Pricing](https://railway.app/pricing) | [Plans (New!)](https://docs.railway.app/reference/plans) | [Deployment](https://docs.railway.app/deploy/deployments)
+[Pricing](https://railway.app/pricing) | [Free Trial](https://docs.railway.app/reference/pricing#free-trial) | [Deployment](https://docs.railway.app/deploy/deployments)
 
 * First month: $5 or 500 hours of usage, credit card is not required
 * To get free $5/month - credit card is required and you have to be [verified](https://blog.railway.app/p/pricing-and-plans-migration-guide-2023#what%E2%80%99s-the-deal-with-verification):
@@ -127,6 +139,44 @@ This comparison describes only free tiers of these services.
   {"model":"Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz","speed":2499,"times":{"user":392954400,"nice":760542130,"sys":397252320,"idle":2252573240,"irq":0}},
   {"model":"Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz","speed":2499,"times":{"user":329321660,"nice":756776420,"sys":456550360,"idle":2255211520,"irq":0}},
   {"model":"Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz","speed":2499,"times":{"user":382870720,"nice":787021250,"sys":372660160,"idle":2265251340,"irq":0}}
+]
+```
+</details>
+
+## fl0.com
+
+[Pricing](https://www.fl0.com/pricing) | [Pricing & Plans](https://docs.fl0.com/docs/platform/pricing-plans) | [Builds & Deployments](https://docs.fl0.com/docs/platform/builds-deployments) | [Supported Scenarios](https://docs.fl0.com/docs/supported-scenarios)
+
+* 1 free app and 1 free database.
+* From the pricing page:
+  > Is the free plan really free?  
+  > Yes, unlike other platforms, our free plan is free.
+* Uses [neon](https://neon.tech/) (serverless postgres) for databases.
+  * No information about database limitations (probably the same as [neon has](https://neon.tech/docs/introduction/free-tier)).
+  * Database Compute: Shared
+  * Database Storage: 3GB
+
+<details>
+  <summary>os.cpus()</summary>
+
+```json
+[
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":3617,"times":{"user":256960,"nice":3810,"sys":102520,"idle":28391470,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":274440,"nice":3020,"sys":104220,"idle":28388940,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":274890,"nice":3330,"sys":104990,"idle":28403950,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":305950,"nice":1990,"sys":105790,"idle":28370670,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":3608,"times":{"user":284490,"nice":3900,"sys":105520,"idle":28394810,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":301920,"nice":2960,"sys":105020,"idle":28370150,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":285230,"nice":7930,"sys":104650,"idle":28397560,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":3600,"times":{"user":404610,"nice":2110,"sys":111550,"idle":28279030,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":3675,"times":{"user":321350,"nice":3090,"sys":107030,"idle":28354550,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":318750,"nice":3690,"sys":102570,"idle":28370200,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":314820,"nice":2110,"sys":106290,"idle":28369010,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":3598,"times":{"user":320310,"nice":3500,"sys":111890,"idle":28286330,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":3599,"times":{"user":313590,"nice":3710,"sys":108010,"idle":28328580,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":300940,"nice":4490,"sys":108260,"idle":28369610,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":290070,"nice":4080,"sys":104160,"idle":28378910,"irq":0}},
+  {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":414090,"nice":2290,"sys":118980,"idle":28196530,"irq":0}}
 ]
 ```
 </details>
