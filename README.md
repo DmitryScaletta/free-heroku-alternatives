@@ -11,7 +11,7 @@ This comparison describes only free tiers of these services.
 | Free Tier Limits        |        | $5*         | 750 hours     | 1000 hours        |         |
 | RAM                     | 256MB  | 512MB       | 512MB         | 512MB             | 256MB   |
 | Disk Space              | 3GB    | 1GB         |               | 200MB*            | 1GB?    |
-| Disk Write Access       | Yes    |             | No            | Yes               |         |
+| Disk Write Access       | Yes    |             | No            | Yes               | Yes     |
 | Network Bandwidth       | 160GB  | $0.10/GB    | 100GB         | 4000 req/hour     | 10GB    |
 | Dockerfile              | Yes    | Yes         | Yes           | No (only Node.js) | Yes     |
 | GitHub Integration      | No     | Yes         | Yes           |                   | Yes     |
