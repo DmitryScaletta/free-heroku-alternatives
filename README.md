@@ -16,17 +16,17 @@ This comparison describes only free tiers of these services.
 | Dockerfile              | Yes    | Yes         | Yes           | No (only Node.js) | Yes     |
 | GitHub Integration      | No     | Yes         | Yes           |                   | Yes     |
 
-|                         | Adaptable.io | Cyclic.sh        | Zeabur.com   |
-| ----------------------- | ------------ | ---------------- | ------------ |
-| Shutdown for Inactivity | Yes*         | No               | No           |
-| Credit Card Required    | No           | No               | No           |
-| Free Tier Limits        | None*        | 10,000 req/month | $5           |
-| RAM                     | 256MB        | 1GB              | 512MB        |
-| Disk Space              | 1GB          | 512MB*           | 1GB          |
-| Disk Write Access       | Yes*         | Yes*             | Yes          |
-| Network Bandwidth       | 100GB        |                  |              |
-| Dockerfile              | No*          | No               | Yes          |
-| GitHub Integration      | Yes          | Yes              | Yes          |
+|                         | Adaptable.io   | Cyclic.sh     | Zeabur.com   |
+| ----------------------- | -------------- | ------------- | ------------ |
+| Shutdown for Inactivity | Yes*           | No            | No           |
+| Credit Card Required    | No             | No            | No           |
+| Free Tier Limits        | ~25,000 req/mo | 10,000 req/mo | $5           |
+| RAM                     | 256MB          | 1GB           | 512MB        |
+| Disk Space              | 1GB            | 512MB*        | 1GB          |
+| Disk Write Access       | Yes*           | Yes*          | Yes          |
+| Network Bandwidth       | 5GB            | -             |              |
+| Dockerfile              | No*            | No            | Yes          |
+| GitHub Integration      | Yes            | Yes           | Yes          |
 
 \* See information below
 
@@ -185,7 +185,8 @@ This comparison describes only free tiers of these services.
 
 [Pricing](https://adaptable.io/pricing) | [Deployment](https://adaptable.io/docs/deploying-your-existing-app) | [App requirements](https://adaptable.io/docs/app-guides/deploy-nodejs-app#containerized-app-requirements)
 
-* Adaptable is currently in beta.
+* 37,500 active CPU seconds per month (625 minutes or 10.4 hours).
+* 25,000 estimated requests/month for typical REST API.
 * Free managed Postgres or MongoDB is included with each app (MS SQL available as add-on).
 * Web services do not support persistent disks. Apps can write to local disk, but files will be lost when the app is scaled down or updated.
 * Web services cannot perform background tasks (HTTP request processing only). App CPU allocation is set to zero when your app is not processing a network request.
