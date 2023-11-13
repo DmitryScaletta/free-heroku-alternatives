@@ -4,29 +4,16 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
-|                         | fly.io | Railway.app | render.com    | glitch.com        | fl0.com |
-| ----------------------- | ------ | ----------- | ------------- | ----------------- | ------- |
-| Shutdown for Inactivity | No     | No          | 15 minutes    | 5 minutes         | No      |
-| Credit Card Required    | Yes    | Yes         | No            | No                | No      |
-| Free Tier Limits        |        | $5*         | 750 hours     | 1000 hours        |         |
-| RAM                     | 256MB  | 512MB       | 512MB         | 512MB             | 256MB   |
-| Disk Space              | 3GB    | 1GB         |               | 200MB*            | 1GB?    |
-| Disk Write Access       | Yes    |             | No            | Yes               | Yes     |
-| Network Bandwidth       | 160GB  | $0.10/GB    | 100GB         | 4000 req/hour     | 10GB    |
-| Dockerfile              | Yes    | Yes         | Yes           | No (only Node.js) | Yes     |
-| GitHub Integration      | No     | Yes         | Yes           |                   | Yes     |
-
-|                         | Adaptable.io   | Cyclic.sh     | Zeabur.com   |
-| ----------------------- | -------------- | ------------- | ------------ |
-| Shutdown for Inactivity | Yes*           | No            | No           |
-| Credit Card Required    | No             | No            | No           |
-| Free Tier Limits        | ~25,000 req/mo | 10,000 req/mo | $5           |
-| RAM                     | 256MB          | 1GB           | 512MB        |
-| Disk Space              | 1GB            | 512MB*        | 1GB          |
-| Disk Write Access       | Yes*           | Yes*          | Yes          |
-| Network Bandwidth       | 5GB            | -             |              |
-| Dockerfile              | No*            | No            | Yes          |
-| GitHub Integration      | Yes            | Yes           | Yes          |
+| | <sub>Shutdown for Inactivity</sub> | <sub>Credit Card Required</sub> | <sub>Free Tier Limits</sub> | <sub>RAM</sub> | <sub>Disk Space</sub> | <sub>Disk Write Access</sub> | <sub>Network Bandwidth</sub> | <sub>Docker-file</sub> | <sub>GitHub Integra-tion</sub> |
+| ------------ | ------ | --- | -------------- | ----- | ------ | ---- | ------------- | --- | --- |
+| fly.io       | No     | Yes |                | 256MB | 3GB    | Yes  | 160GB         | Yes | No  |
+| Railway.app  | No     | Yes | $5*            | 512MB | 1GB    |      | $0.10/GB      | Yes | Yes |
+| render.com   | 15 min | No  | 750 hours      | 512MB |        | No   | 100GB         | Yes | Yes |
+| glitch.com   | 5 min  | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
+| fl0.com      | No     | No  |                | 256MB | 1GB?   | Yes  | 10GB          | Yes | Yes |
+| Adaptable.io | Yes*   | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
+| Cyclic.sh    | No     | No  | 10,000 req/mo  | 1GB   | 512MB* | Yes* |               | No  | Yes |
+| Zeabur.com   | No     | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
 
 \* See information below
 
