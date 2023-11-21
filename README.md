@@ -14,6 +14,7 @@ This comparison describes only free tiers of these services.
 | Adaptable.io | Yes*   | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
 | Cyclic.sh    | No     | No  | 10,000 req/mo  | 1GB   | 512MB* | Yes* |               | No  | Yes |
 | Zeabur.com   | No     | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
+| Koyeb.com    | No     | No  |                | 256MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 
 \* See information below
 
@@ -42,7 +43,7 @@ This comparison describes only free tiers of these services.
 * Need to redeploy projects after the new monthly credit is applied to your account
 
 <details>
-  <summary>os.cpus()</summary>
+<summary>os.cpus()</summary>
 
 ```json
 [
@@ -93,7 +94,7 @@ This comparison describes only free tiers of these services.
 * Free Web Services can use up to 400 free build hours per month, shared with static sites
 
 <details>
-  <summary>os.cpus()</summary>
+<summary>os.cpus()</summary>
 
 ```json
 [
@@ -119,7 +120,7 @@ This comparison describes only free tiers of these services.
 * There's an additional 512MB of assets storage space. The maximum file size per upload is limited to 256MB.
 
 <details>
-  <summary>os.cpus()</summary>
+<summary>os.cpus()</summary>
 
 ```json
 [
@@ -144,7 +145,7 @@ This comparison describes only free tiers of these services.
   * Database Storage: 3GB
 
 <details>
-  <summary>os.cpus()</summary>
+<summary>os.cpus()</summary>
 
 ```json
 [
@@ -197,7 +198,7 @@ This comparison describes only free tiers of these services.
 * 10 API requests per second in a burst (for free tier)
 
 <details>
-  <summary>os.cpus()</summary>
+<summary>os.cpus()</summary>
 
 ```json
 [
@@ -218,7 +219,7 @@ This comparison describes only free tiers of these services.
 * Can deploy from pre-built services and templates
 
 <details>
-  <summary>os.cpus()</summary>
+<summary>os.cpus()</summary>
 
 ```json
 [
@@ -226,6 +227,24 @@ This comparison describes only free tiers of these services.
   {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1098516910,"nice":0,"sys":511087310,"idle":1445546250,"irq":0}},
   {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1090612360,"nice":0,"sys":512215370,"idle":1480410470,"irq":0}},
   {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1027847790,"nice":10,"sys":516513570,"idle":1232710880,"irq":0}}
+]
+```
+</details>
+
+## Koyeb.com 
+
+[Pricing](https://www.koyeb.com/pricing) | [Pricing Frequently Asked Questions](https://www.koyeb.com/docs/faqs/pricing) | [Deploy](https://www.koyeb.com/docs/deploy)
+
+* Signing up using a GitHub account lets you join the Hobby plan without adding a credit card
+* One free web Service in the Frankfurt region with 256MB of RAM, 0.1 vCPU, and 2.5GB of SSD
+* Anti-DDoS
+
+<details>
+<summary>os.cpus()</summary>
+
+```json
+[
+  { "model": "AMD EPYC", "speed": 0, "times": { "user": 590, "nice": 0, "sys": 1110, "idle": 361200, "irq": 0 } }
 ]
 ```
 </details>
