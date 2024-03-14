@@ -5,16 +5,16 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 This comparison describes only free tiers of these services.
 
 | | <sub>Shutdown for Inactivity</sub> | <sub>Credit Card Required</sub> | <sub>Free Tier Limits</sub> | <sub>RAM</sub> | <sub>Disk Space</sub> | <sub>Disk Write Access</sub> | <sub>Network Bandwidth</sub> | <sub>Docker-file</sub> | <sub>GitHub Integra-tion</sub> |
-| ------------ | ------ | --- | -------------- | ----- | ------ | ---- | ------------- | --- | --- |
-| fly.io       | No     | Yes |                | 256MB | 3GB    | Yes  | 160GB         | Yes | No  |
-| Railway.app  | No     | Yes | $5*            | 512MB | 1GB    |      | $0.10/GB      | Yes | Yes |
-| render.com   | 15 min | No  | 750 hours      | 512MB |        | No   | 100GB         | Yes | Yes |
-| glitch.com   | 5 min  | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
-| fl0.com      | No     | No  |                | 256MB | 1GB?   | Yes  | 10GB          | Yes | Yes |
-| Adaptable.io | Yes*   | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
-| Cyclic.sh    | No     | No  | 10,000 req/mo  | 1GB   | 512MB* | Yes* |               | No  | Yes |
-| Zeabur.com   | No     | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
-| Koyeb.com    | No     | No  |                | 256MB | 2GB    | Yes  | 100GB         | Yes | Yes |
+| ------------ | ---- | --- | -------------- | ----- | ------ | ---- | ------------- | --- | --- |
+| fly.io       | No   | Yes |                | 256MB | 3GB    | Yes  | 160GB         | Yes | No  |
+| Railway.app  | No   | Yes | $5*            | 512MB | 1GB    |      | $0.10/GB      | Yes | Yes |
+| render.com   | 15m  | No  | 750 hours      | 512MB |        | No   | 100GB         | Yes | Yes |
+| glitch.com   | 5m   | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
+| fl0.com      | 24h  | No  |                | 256MB | 1GB?   | Yes  | 10GB          | Yes | Yes |
+| Adaptable.io | Yes* | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
+| Cyclic.sh    | No   | No  | 10,000 req/mo  | 1GB   | 512MB* | Yes* |               | No  | Yes |
+| Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
+| Koyeb.com    | No   | No  |                | 256MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 
 \* See information below
 
