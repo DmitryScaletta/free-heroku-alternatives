@@ -10,7 +10,7 @@ This comparison describes only free tiers of these services.
 | Railway.app  | No   | Yes | $5*            | 512MB | 1GB    |      | $0.10/GB      | Yes | Yes |
 | render.com   | 15m  | No  | 750 hours      | 512MB |        | No   | 100GB         | Yes | Yes |
 | glitch.com   | 5m   | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
-| fl0.com      | 24h  | No  |                | 256MB | 1GB?   | Yes  | 10GB          | Yes | Yes |
+| fl0.com      | 24h  | No  |                | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Adaptable.io | Yes* | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
 | Cyclic.sh    | No   | No  | 10,000 req/mo  | 1GB   | 512MB* | Yes* |               | No  | Yes |
 | Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
