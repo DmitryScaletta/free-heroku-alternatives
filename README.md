@@ -4,6 +4,8 @@ Heroku [shuts down their free plans](https://twitter.com/heroku/status/156281705
 
 This comparison describes only free tiers of these services.
 
+See also [free database services](https://github.com/DmitryScaletta/free-database-services)
+
 | | <sub>Shutdown for Inactivity</sub> | <sub>Credit Card Required</sub> | <sub>Free Tier Limits</sub> | <sub>RAM</sub> | <sub>Disk Space</sub> | <sub>Disk Write Access</sub> | <sub>Network Bandwidth</sub> | <sub>Docker-file</sub> | <sub>GitHub Integra-tion</sub> |
 | ------------ | ---- | --- | -------------- | ----- | ------ | ---- | ------------- | --- | --- |
 | fly.io       | No   | Yes |                | 256MB | 3GB    | Yes  | 160GB         | Yes | No  |
