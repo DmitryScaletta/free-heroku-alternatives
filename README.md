@@ -16,7 +16,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | Adaptable.io | Yes* | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
 | Cyclic.sh    | No   | No  | 10,000 req/mo  | 1GB   | 512MB* | Yes* |               | No  | Yes |
 | Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
-| Koyeb.com    | Yes* | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
+| Koyeb.com    | Yes* | No  | invite-only    | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 
 \* See information below
 
@@ -135,16 +135,9 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 
 ## fl0.com
 
-[Pricing](https://www.fl0.com/pricing) | [Pricing & Plans](https://docs.fl0.com/docs/platform/pricing-plans) | [Builds & Deployments](https://docs.fl0.com/docs/platform/builds-deployments) | [Supported Scenarios](https://docs.fl0.com/docs/supported-scenarios)
+[Builds & Deployments](https://docs.fl0.com/docs/platform/builds-deployments) | [Supported Scenarios](https://docs.fl0.com/docs/supported-scenarios)
 
-* 1 free app and 1 free database.
-* From the pricing page:
-  > Is the free plan really free?  
-  > Yes, unlike other platforms, our free plan is free.
-* Uses [neon](https://neon.tech/) (serverless postgres) for databases.
-  * No information about database limitations (probably the same as [neon has](https://neon.tech/docs/introduction/free-tier)).
-  * Database Compute: Shared
-  * Database Storage: 3GB
+* Invite-only from 4th May 2024
 
 <details>
 <summary>os.cpus()</summary>
