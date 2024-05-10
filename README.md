@@ -14,7 +14,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | glitch.com   | 5m   | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Adaptable.io | Yes* | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
-| Cyclic.sh    | No   | No  | 10,000 req/mo  | 1GB   | 512MB* | Yes* |               | No  | Yes |
 | Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
 | Koyeb.com    | Yes* | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 
@@ -176,32 +175,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 * Web services can be restarted at any time.
 * Apps may be paused for abusive use.
 * Dockerfile support is not yet released.
-
-## Cyclic.sh
-
-[Pricing](https://www.cyclic.sh/pricing) | [Limits](https://docs.cyclic.sh/overview/limits) | [Deploy](https://docs.cyclic.sh/overview/deploy)
-
-* Websockets are currently not supported in Cyclic apps.
-* There are no servers, no containers, no images, no hours to count. Each app is deployed entirely on serverless cloud infrastructure.
-* Apps do not have to sleep, wake up, spin up or recycle. All front-ends and back-ends are ready on-demand, immediately and at all times.
-* Storage
-  * 1GB of AWS S3 file object storage
-  * 1GB AWS DynamoDB NoSQL database.
-  * 512MB of ephemeral disk space mounted at /tmp. The data will persist between invokes but there is no guarantee that any further invocations will use the same instance and thus can not be relied on to store persistent data.
-* No streaming of requests or responses
-* 5 API requests per second steady state (for free tier)
-* 10 API requests per second in a burst (for free tier)
-
-<details>
-<summary>os.cpus()</summary>
-
-```json
-[
-  {"model":"Intel(R) Xeon(R) Processor @ 2.50GHz","speed":2500,"times":{"user":260,"nice":0,"sys":380,"idle":488800,"irq":0}},
-  {"model":"Intel(R) Xeon(R) Processor @ 2.50GHz","speed":2500,"times":{"user":490,"nice":0,"sys":480,"idle":488540,"irq":0}}
-]
-```
-</details>
 
 ## Zeabur.com
 
