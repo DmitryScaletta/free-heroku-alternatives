@@ -16,6 +16,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | Adaptable.io | Yes* | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
 | Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
 | Koyeb.com    | Yes* | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
+| Lade.io      | No   | No  |                | 128MB | 1GB    | Yes  | 100GB         | Yes | No  |
 
 \* See information below
 
@@ -217,3 +218,21 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 ]
 ```
 </details>
+
+## Lade.io
+
+[Pricing](https://www.lade.io/pricing) | [Deployment](https://www.lade.io/docs/platform/cli)
+
+* Free services for 5 apps or databases
+* Free apps with 128MB RAM
+* Free databases and disks with 1GB of storage
+* Has MariaDB, Memcached, MongoDB, MySQL, Postgres, Redis
+
+<details>
+<summary>os.cpus()</summary>
+
+```json
+[
+  {"model":"Intel Core Processor (Haswell, no TSX, IBRS)","speed":2399,"times":{"user":34422500,"nice":7840,"sys":15136040,"idle":1035575260,"irq":0}}
+]
+```
