@@ -223,10 +223,8 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 
 [Pricing](https://www.lade.io/pricing) | [Deployment](https://www.lade.io/docs/platform/cli)
 
-* Free services for 5 apps or databases
-* Free apps with 128MB RAM
-* Free databases and disks with 1GB of storage
-* Has MariaDB, Memcached, MongoDB, MySQL, Postgres, Redis
+* Free services for up to 5 apps or databases
+* Free databases include MariaDB, Memcached, MongoDB, MySQL, Postgres, Redis
 
 <details>
 <summary>os.cpus()</summary>
@@ -236,3 +234,4 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
   {"model":"Intel Core Processor (Haswell, no TSX, IBRS)","speed":2399,"times":{"user":34422500,"nice":7840,"sys":15136040,"idle":1035575260,"irq":0}}
 ]
 ```
+</details>
