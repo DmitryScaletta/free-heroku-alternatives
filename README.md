@@ -205,7 +205,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 [Pricing](https://www.koyeb.com/pricing) | [Pricing Frequently Asked Questions](https://www.koyeb.com/docs/faqs/pricing) | [Deploy](https://www.koyeb.com/docs/deploy)
 
 * Signing up using a GitHub account lets you join the Hobby plan without adding a credit card
-* The app can be paused if you didn't sign into your account for some time. Notified by email.
+* The app can be paused if you didn't sign into your account for 2 weeks. Notified by email
 * One free web Service in the Frankfurt region with 256MB of RAM, 0.1 vCPU, and 2.5GB of SSD
 * Anti-DDoS
 
