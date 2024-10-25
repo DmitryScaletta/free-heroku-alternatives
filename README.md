@@ -223,7 +223,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 
 [Pricing](https://www.lade.io/pricing) | [Deployment](https://www.lade.io/docs/platform/cli)
 
-* Free services for up to 5 apps or databases
+* Free services for up to 3 apps or databases
 * Free databases include MariaDB, Memcached, MongoDB, MySQL, Postgres, Redis
 
 <details>
