@@ -13,7 +13,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | render.com   | 15m  | No  | 750 hours      | 512MB |        | No   | 100GB         | Yes | Yes |
 | glitch.com   | 5m   | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
-| Adaptable.io | Yes* | No  | ~25,000 req/mo | 256MB | 1GB    | Yes* | 5GB           | No* | Yes |
 | Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
 | Koyeb.com    | Yes* | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | Lade.io      | No   | No  |                | 128MB | 1GB    | Yes  | 100GB         | Yes | No  |
@@ -163,19 +162,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 ]
 ```
 </details>
-
-## Adaptable.io
-
-[Pricing](https://adaptable.io/pricing) | [Deployment](https://adaptable.io/docs/deploying-your-existing-app) | [App requirements](https://adaptable.io/docs/app-guides/deploy-nodejs-app#containerized-app-requirements)
-
-* 37,500 active CPU seconds per month (625 minutes or 10.4 hours).
-* 25,000 estimated requests/month for typical REST API.
-* Free managed Postgres or MongoDB is included with each app (MS SQL available as add-on).
-* Web services do not support persistent disks. Apps can write to local disk, but files will be lost when the app is scaled down or updated.
-* Web services cannot perform background tasks (HTTP request processing only). App CPU allocation is set to zero when your app is not processing a network request.
-* Web services can be restarted at any time.
-* Apps may be paused for abusive use.
-* Dockerfile support is not yet released.
 
 ## Zeabur.com
 
