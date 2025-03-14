@@ -13,7 +13,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | render.com   | 15m  | No  | 750 hours      | 512MB |        | No   | 100GB         | Yes | Yes |
 | glitch.com   | 5m   | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
-| Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
 | Koyeb.com    | 1h   | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | Lade.io      | No   | No  |                | 128MB | 1GB    | Yes  | 100GB         | Yes | No  |
 
@@ -159,29 +158,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
   {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":300940,"nice":4490,"sys":108260,"idle":28369610,"irq":0}},
   {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":290070,"nice":4080,"sys":104160,"idle":28378910,"irq":0}},
   {"model":"Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz","speed":2999,"times":{"user":414090,"nice":2290,"sys":118980,"idle":28196530,"irq":0}}
-]
-```
-</details>
-
-## Zeabur.com
-
-[Pricing](https://zeabur.com/pricing) | [Pricing Model](https://docs.zeabur.com/billing/pricing) | [Deployment](https://docs.zeabur.com/get-started)
-
-* Has Postgres, Redis, MongoDB, MySQL and other databases
-* Should use about 20% CPU and 100MB RAM to run an app 24/7 at a free tier.
-* Include a US$ 5 free credits every month
-* Apps do not have to sleep, wake up, spin up or recycle. All front-ends and back-ends are ready on-demand, immediately and at all times.
-* Can deploy from pre-built services and templates
-
-<details>
-<summary>os.cpus()</summary>
-
-```json
-[
-  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1079889550,"nice":0,"sys":517413340,"idle":1440992040,"irq":0}},
-  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1098516910,"nice":0,"sys":511087310,"idle":1445546250,"irq":0}},
-  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1090612360,"nice":0,"sys":512215370,"idle":1480410470,"irq":0}},
-  {"model":"AMD EPYC 7B12","speed":2249,"times":{"user":1027847790,"nice":10,"sys":516513570,"idle":1232710880,"irq":0}}
 ]
 ```
 </details>
