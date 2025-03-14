@@ -14,7 +14,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | glitch.com   | 5m   | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Zeabur.com   | No   | No  | $5             | 512MB | 1GB    | Yes  |               | Yes | Yes |
-| Koyeb.com    | Yes* | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
+| Koyeb.com    | 1h   | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | Lade.io      | No   | No  |                | 128MB | 1GB    | Yes  | 100GB         | Yes | No  |
 
 \* See information below
@@ -191,7 +191,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 [Pricing](https://www.koyeb.com/pricing) | [Pricing Frequently Asked Questions](https://www.koyeb.com/docs/faqs/pricing) | [Deploy](https://www.koyeb.com/docs/deploy)
 
 * Signing up using a GitHub account lets you join the Hobby plan without adding a credit card
-* The app can be paused if you didn't sign into your account for 2 weeks. Notified by email
+* The app can be paused if you didn't sign in for 30 days. Notified by email
 * One free web Service in the Frankfurt region with 256MB of RAM, 0.1 vCPU, and 2.5GB of SSD
 * Anti-DDoS
 
