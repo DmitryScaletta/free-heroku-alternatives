@@ -15,6 +15,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Koyeb.com    | 1h   | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | Lade.io      | No   | No  |                | 128MB | 1GB    | Yes  | 100GB         | Yes | No  |
+| WispByte.com | 30d  | No  | no https       | 512MB | 1GB    | Yes  | ?             | No* | Yes |
 
 \* See information below
 
@@ -194,6 +195,40 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 ```json
 [
   {"model":"Intel Core Processor (Haswell, no TSX, IBRS)","speed":2399,"times":{"user":34422500,"nice":7840,"sys":15136040,"idle":1035575260,"irq":0}}
+]
+```
+</details>
+
+## WispByte.com
+
+[Main Page](https://wispbyte.com/)
+
+* Premium-only features:
+  * Using https
+  * Using Docker images
+  * Changing startup command
+* 1 free server per account
+* Requires to log in at least once a month to keep project running. Otherwise, a server will go offline
+* Free options: Node.js, Bun, Python, Java, C#, Rust, Lua, MongoDB, MariaDB, Redis, Postgres
+* Originally was made for discord bots
+
+<details>
+<summary>os.cpus()</summary>
+
+```json
+[
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":66391500,"nice":1240,"sys":39980450,"idle":457616670,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":46523660,"nice":500,"sys":45705960,"idle":455116580,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":61987930,"nice":1060,"sys":38080810,"idle":462331760,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":62762270,"nice":1750,"sys":38678700,"idle":466621370,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":62974210,"nice":1750,"sys":38768990,"idle":466331460,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":63332450,"nice":1840,"sys":39071880,"idle":466059370,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":67194570,"nice":1260,"sys":41715960,"idle":455640950,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":64298530,"nice":1360,"sys":40935520,"idle":459214070,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":64132700,"nice":470,"sys":40531470,"idle":460644240,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":64190390,"nice":1130,"sys":40566420,"idle":460116840,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":64048130,"nice":100,"sys":40462300,"idle":460504250,"irq":0}},
+  {"model":"Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz","speed":2693,"times":{"user":63916590,"nice":1060,"sys":40616270,"idle":460765920,"irq":0}}
 ]
 ```
 </details>
