@@ -14,7 +14,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | glitch.com   | 5m   | No  | 1000 hours     | 512MB | 200MB* | Yes  | 4000 req/hour | No  |     | 
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Koyeb.com    | 1h   | No  |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
-| Lade.io      | No   | No  |                | 128MB | 1GB    | Yes  | 100GB         | Yes | No  |
 | WispByte.com | 30d  | No  | no https       | 512MB | 1GB    | Yes  | ?             | No* | Yes |
 
 \* See information below
@@ -178,23 +177,6 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 ```json
 [
   { "model": "AMD EPYC", "speed": 0, "times": { "user": 590, "nice": 0, "sys": 1110, "idle": 361200, "irq": 0 } }
-]
-```
-</details>
-
-## Lade.io
-
-[Pricing](https://www.lade.io/pricing) | [Deployment](https://www.lade.io/docs/platform/cli)
-
-* Free services for up to 3 apps or databases
-* Free databases include MariaDB, Memcached, MongoDB, MySQL, Postgres, Redis
-
-<details>
-<summary>os.cpus()</summary>
-
-```json
-[
-  {"model":"Intel Core Processor (Haswell, no TSX, IBRS)","speed":2399,"times":{"user":34422500,"nice":7840,"sys":15136040,"idle":1035575260,"irq":0}}
 ]
 ```
 </details>
