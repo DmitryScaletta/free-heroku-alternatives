@@ -15,22 +15,9 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Koyeb.com    | 1h   | Yes |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | WispByte.com | 30d  | No  | no https       | 512MB | 1GB    | Yes  | ?             | No* | Yes |
-| [Cloady](https://cloady.com) | Not documented* | No* | 0.5 vCPU, shared workspace* | 1GB | 5GB | Yes | 200GB/month | Yes | Yes |
+| Cloady.com   | No*  | No* | 0.5 vCPU*      | 1GB   | 5GB    | Yes  | 200GB         | Yes | Yes |
 
 \* See information below
-
-## Cloady
-
-[Website](https://cloady.com) | [Pricing](https://cloady.com/#pricing) | [Deployment documentation](https://cloady.com/docs/hosting) | [Terms](https://cloady.com/terms)
-
-* Free workspace allowance: 0.5 vCPU, 1GB RAM, 5GB persistent SSD storage and 200GB monthly traffic, shared across all applications in the workspace.
-* Phone verification is required; no credit card is required to start on the free tier.
-* Deploy a GitHub repository using Railpack or a Dockerfile, a Docker image, an uploaded folder, or a template. Applications and databases can run together in a workspace.
-* Custom domains and automatic HTTPS are supported. Persistent data belongs in volumes.
-* If any free resource threshold is exceeded, the entire allocated workspace becomes billable, not just the excess. Check the displayed price before confirming a resource change.
-* The public pricing and terms pages do not specify an inactivity shutdown interval; this entry does not claim an always-on guarantee.
-
-Free-tier information checked against the official pages on October 26, 2026.
 
 ## fly.io
 
@@ -228,3 +215,16 @@ Free-tier information checked against the official pages on October 26, 2026.
 ]
 ```
 </details>
+
+## Cloady.com
+
+[Website](https://cloady.com) | [Pricing](https://cloady.com/#pricing) | [Deployment documentation](https://cloady.com/docs/hosting) | [Terms](https://cloady.com/terms)
+
+* Free workspace allowance: 0.5 vCPU, 1GB RAM, 5GB persistent SSD storage and 200GB monthly traffic, shared across all applications in the workspace.
+* Phone verification is required; no credit card is required to start on the free tier.
+* Deploy a GitHub repository using Railpack or a Dockerfile, a Docker image, an uploaded folder, or a template. Applications and databases can run together in a workspace.
+* Custom domains and automatic HTTPS are supported. Persistent data belongs in volumes.
+* If any free resource threshold is exceeded, the entire allocated workspace becomes billable, not just the excess. Check the displayed price before confirming a resource change.
+* The public pricing and terms pages do not specify an inactivity shutdown interval; this entry does not claim an always-on guarantee.
+
+Free-tier information checked against the official pages on October 26, 2026.
