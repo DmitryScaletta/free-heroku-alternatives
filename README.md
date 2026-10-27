@@ -16,6 +16,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | Koyeb.com    | 1h   | Yes |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | WispByte.com | 30d  | No  | no https       | 512MB | 1GB    | Yes  | ?             | No* | Yes |
 | Cloady.com   | No*  | No* | 0.5 vCPU*      | 1GB   | 5GB    | Yes  | 200GB         | Yes | Yes |
+| Light Cloud  | Idle*| No  | $1/month*      | 512MB |        | No*  | $0.20/GB*     | Yes | Yes |
 
 \* See information below
 
@@ -228,3 +229,17 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 * The public pricing and terms pages do not specify an inactivity shutdown interval; this entry does not claim an always-on guarantee.
 
 Free-tier information checked against the official pages on October 26, 2026.
+
+## Light Cloud
+
+[Website](https://light-cloud.com) | [Pricing](https://light-cloud.com/pricing) | [Limits](https://docs.light-cloud.com/reference/limits) | [Frameworks and Dockerfiles](https://docs.light-cloud.com/platform/frameworks)
+
+* Free plan: $1 of usage included each month, no credit card. Unlimited static sites, 3 server apps and a preview URL per branch, on a light-cloud.io address. No custom domain and no database on the free plan.
+* Server apps scale to zero: an idle app stops and costs nothing, and the next request starts it again (a cold start). Apps are never deleted for inactivity.
+* Sizes on the free plan: Nano (256MB) and Micro (512MB), billed per instance-hour while running ($0.115 to $0.12 an hour) out of the $1.
+* Container traffic is $0.20/GB out of the same $1. Static sites include 20GB of bandwidth a month per workspace.
+* The filesystem is writable but not persistent; keep data in a database (paid plans).
+* Deploy from GitHub, GitLab or Bitbucket, a Dockerfile, the `lc` CLI, or a coding agent through the MCP server.
+* When the $1 is used up, server apps pause until next month and static sites stay up. A free workspace is never billed.
+
+Free-tier information checked against the official pages on October 27, 2026.
