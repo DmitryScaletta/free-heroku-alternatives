@@ -15,6 +15,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Koyeb.com    | 1h   | Yes |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | WispByte.com | 30d  | No  | no https       | 512MB | 1GB    | Yes  | ?             | No* | Yes |
+| zenifra.com  | No   | No  | 1 HTTP app*    | 512MB | 1GB    | Yes  | Unlimited*    | Yes | Yes |
 
 \* See information below
 
@@ -214,3 +215,13 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 ]
 ```
 </details>
+
+## Zenifra.com
+
+[Pricing](https://www.zenifra.com/en/pricing) | [Docs](https://docs.zenifra.com/en/docs)
+
+* 1 free HTTP app per organization with 0.5 vCPU and 512MB of RAM, not shut down for inactivity
+* Also free: 1 PostgreSQL, 1 Valkey Cache and 1 Valkey Queue
+* No credit card required
+* Servers in Brazil (São Paulo). Sign-up requires a Brazilian CPF or CNPJ, a Brazilian mobile number and a Brazilian address
+* Deploy from GitHub, Forgejo or a Docker image
