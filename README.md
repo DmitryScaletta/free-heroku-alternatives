@@ -15,7 +15,7 @@ See also [free database services](https://github.com/DmitryScaletta/free-databas
 | fl0.com      | 24h  | No  | invite-only    | 256MB | 1GB?   | Yes  | 5GB           | Yes | Yes |
 | Koyeb.com    | 1h   | Yes |                | 512MB | 2GB    | Yes  | 100GB         | Yes | Yes |
 | WispByte.com | 30d  | No  | no https       | 512MB | 1GB    | Yes  | ?             | No* | Yes |
-| zenifra.com  | No   | No  | 1 app*         | 512MB | ?      | Yes  | ?             | Yes | Yes |
+| zenifra.com  | No   | No  | 1 HTTP app*    | 512MB | 1GB    | Yes  | Unlimited*    | Yes | Yes |
 
 \* See information below
 
